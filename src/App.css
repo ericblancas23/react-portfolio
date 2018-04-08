@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Hi+Melody');
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+.landing-paragraph {
+  text-align: justify;
+  padding-bottom: 2cm;
+}
+
+.project-section {
+   padding: 8%;
+}
+
+.landing-img {
+  align-content: center;
+  height: 400px;
+  width:500px;
+  display: inline-flex;
+}
+
+.box {
+  width: 800px;
+  border: 15px solid lightblue;
+  margin: auto;
+}
+
+.Goals {
+  padding-bottom: 5cm;
+}
+
+body {
+  overflow-x: hidden;
+}
