@@ -24,6 +24,8 @@ export const NavBar = () => (
            <span class="navbar-toggler-icon"></span>
          </button>
        </div>
+       <a href="https://www.linkedin.com/in/eric-blancas23/"><img src={require("../img/linkedin.png")} style={{width: 50, height: 50, float: "right", marginRight: "1cm"}}/></a>
+       <a href="https://github.com/ericblancas23"><img src={require("../img/Octocat.png")} style={{width: 70, height: 70, float: "right"}}/></a>
       </nav>
   </div>
 );

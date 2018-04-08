@@ -42,7 +42,7 @@ export default class Skills extends Component {
     render() {
         
         return(
-            <div>
+            <div className="skills">
                 <Bar 
                    data={this.state.chartData}
                    width={550}

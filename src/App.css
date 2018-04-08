@@ -21,6 +21,10 @@ p {
   display: inline-flex;
 }
 
+.skills {
+  padding-bottom: 2cm;
+}
+
 .box {
   width: 800px;
   border: 15px solid lightblue;
