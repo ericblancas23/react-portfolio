@@ -16,6 +16,7 @@ export default class Projects extends Component {
                            <h5 class="card-title">Lambda Showcase</h5>
                            <p class="card-text">Lambda Showcase is a full-stack web application 
                            that was built in React, MongoDB, and Express.</p>
+                           <a href="https://github.com/LSPortfolio">Github Repo</a>
                        </div>
                      </div>
                    </div>
@@ -27,6 +28,7 @@ export default class Projects extends Component {
                            <h5 class="card-title">Cliphy</h5>
                            <p class="card-text">Cliphy demonstrates usage of Cloudinary api to solely 
                            use multi-part http.</p>
+                           <a href="https://github.com/ericblancas23/movingImages-cliphy">Github Repo</a>
                        </div>
                      </div>
                    </div>
@@ -38,6 +40,7 @@ export default class Projects extends Component {
                            <h5 class="card-title">Airbnb Copy</h5>
                            <p class="card-text">Airbnb Copy to demonstrate use of Search Filter component,
                            Masonry Layout, and api-calls</p>
+                           <a href="https://github.com/ericblancas23/airbnb-clone">Github Repo</a>
                        </div>
                      </div>
                    </div>
@@ -46,9 +49,10 @@ export default class Projects extends Component {
                    <img class="card-img-top" alt="Card header image" src={require("../img/weather.png")} />
                    <div className="card mt-3">
                        <div className="card-body">
-                           <h5 class="card-title">Weather</h5>
+                           <h5 class="card-title">Weather</h5> 
                            <p class="card-text">First Project done in React framework. Applied a Weather Api
                            to filter certain Cities and their current weather conditions</p>
+                           <a href="https://github.com/ericblancas23/weather-application">Github Repo</a>
                        </div>
                      </div>
                    </div>
@@ -61,6 +65,7 @@ export default class Projects extends Component {
                            <h5 class="card-title">Carpool</h5>
                            <p class="card-text">Capstone Project that delivers a Carpooling and Social Media Experience.
                            App, has taught me both Development skills and Product Management</p>
+                           <a href="https://github.com/ericblancas23/taxi-app">Github Repo</a>
                        </div>
                      </div>
                    </div>

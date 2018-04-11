@@ -10,7 +10,8 @@ p {
   padding-bottom: 1cm;
   padding-top: 1cm;
   font-size: 150%;
-  background-color: lightblue;
+  color: white;
+  background-color: gray;
 }
 
 /* .project-section {
@@ -40,4 +41,8 @@ p {
 
 body {
   overflow-x: hidden;
+}
+
+.project-section {
+  padding-bottom: 0.5cm;
 }
