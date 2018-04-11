@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class Contact extends Component {
     render() {
         return(
-        <div class="row mt-5 mb-5">
+        <div className="contact">
             <div class="col-sm-12 col-md-6 offset-md-3">
               <h3>Reach out!</h3>
               <form action="mailto:ericblancas23@gmail.com" method="post">

@@ -29,8 +29,8 @@ p {
 }
 
 .skills {
-  background-color: black;
-  color: gray;
+  background-color: white;
+  color: black;
 }
 
 .box {
@@ -51,4 +51,11 @@ body {
   padding-bottom: 0.5cm;
   background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/IjFi-wx/moving-stars-on-black-background_41x3vg3x__F0000.png');
   color: gray;
+}
+
+.contact {
+  background-image: url('https://i.pinimg.com/originals/66/09/83/660983936b27260376687cf3408a76b7.jpg');
+  color: white;
+  padding-top: 0.5cm;
+  padding-bottom: 0.5cm;
 }
