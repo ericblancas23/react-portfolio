@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import LazyHero from 'react-lazy-hero';
+import Typed from 'react-typed';
 
 export default class LandingPage extends Component {
+
+
     render() {
         return(
             <div>
@@ -11,16 +14,18 @@ export default class LandingPage extends Component {
               color="blue"
               opacity={0.4}
         >
-                 <div class="jumbotron-fluid" style={{ color: "white"}}>
-                       <h1 class="display-3">Hello</h1>
-                       <p class="lead">My name is Eric Blancas, I'm a Developer and Software Generalist. Hope you enjoy my portfolio</p>
+                 <div style={{ color: "white"}}>
+                       <h1 class="display-3"><Typed 
+                    typedRef={(typed) => { this.typed = typed; }}
+                    strings={['Hello', 'My name is Eric Blancas', 'Welcome to my portfolio!']} 
+                    typeSpeed={60}
+                    backSpeed={50} 
+                    loop/></h1>
                 </div>
               </LazyHero>
-              <div>
-              <img alt="" src={require("../img/picofme.jpg")} className="landing-img"/>
-              <img alt="" src={require("../img/picofme2.jpg")} className="landing-img"/>
-              <img alt="" src={require("../img/picofme3.jpg")} className="landing-img" style={{ width: 425}}/>
-              <p className="landing-paragraph">Born and raised in San Diego, CA. Growing up I always had an admiration for computers and technology, Xanga and MySpace had become my stepping stone towards web development. I would spend countless hours trying to make my profile page look colorful just to impress my friends and eventually from such a young age, it became one of my most treasured skills. Html/CSS was my first exposure to DOM manipulation of rendering colors, and creation of user interfaces; thus began my journey of becoming a web developer.</p>
+              <div className="landing-paragraph">
+              <img src={require('../img/newpicofme.png')} alt="pic"/>
+              <p>Born and raised in San Diego, CA. Growing up I always had an admiration for computers and technology, Xanga and MySpace had become my stepping stone towards web development. I would spend countless hours trying to make my profile page look colorful just to impress my friends and eventually from such a young age, it became one of my most treasured skills. Html/CSS was my first exposure to DOM manipulation of rendering colors, and creation of user interfaces; thus began my journey of becoming a web developer.</p>
               </div>
             </div>
         );

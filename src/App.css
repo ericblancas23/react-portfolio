@@ -6,13 +6,16 @@ p {
 }
 
 .landing-paragraph {
-  text-align: justify;
-  padding-bottom: 2cm;
+  text-align: center;
+  padding-bottom: 1cm;
+  padding-top: 1cm;
+  font-size: 150%;
+  background-color: lightblue;
 }
 
-.project-section {
+/* .project-section {
    padding: 8%;
-}
+} */
 
 .landing-img {
   align-content: center;
@@ -22,7 +25,7 @@ p {
 }
 
 .skills {
-  padding-bottom: 2cm;
+  background-color: #ffff99;
 }
 
 .box {

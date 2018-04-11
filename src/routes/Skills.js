@@ -43,10 +43,11 @@ export default class Skills extends Component {
         
         return(
             <div className="skills">
+            <center><h1>My Skills:</h1></center>
                 <Bar 
                    data={this.state.chartData}
-                   width={550}
-                   height={550}
+                   width={400}
+                   height={400}
                    options={{
                        maintainAspectRatio: false
                    }}

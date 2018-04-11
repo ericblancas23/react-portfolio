@@ -4,6 +4,7 @@ export default class Projects extends Component {
     render() {
         return(
             <div className="project-section">
+            <center><h1>My Projects:</h1></center>
               <div className="container">
 
                 <div className="row">
