@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import LazyHero from 'react-lazy-hero';
 
 export default class Projects extends Component {
     render() {
