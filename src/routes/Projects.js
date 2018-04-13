@@ -58,6 +58,17 @@ export default class Projects extends Component {
                      </div>
                    </div>
 
+                   <div class="col-sm-6 col-lg-3">
+                   <img class="card-img-top" alt="Card header image" src={require("../img/ecommerce.png")} />
+                     <div className="card mt-3">
+                       <div className="card-body">
+                           <h5 class="card-title">Ecommerce</h5>
+                           <p class="card-text">
+                            Ecommerce Web Application that shows demonstration of fullstack code using Angular</p>
+                           <a href="https://github.com/ericblancas23/ecommerce-app">Github Repo</a>
+                       </div>
+                     </div>
+                   </div>
 
                    <div class="col-sm-6 col-lg-3">
                    <img class="card-img-top" alt="Card header image" src={require("../img/carpool2.png")} />
@@ -70,6 +81,8 @@ export default class Projects extends Component {
                        </div>
                      </div>
                    </div>
+
+
 
                    {/* <div class="col-sm-6 col-lg-3">
                      <div className="card">
