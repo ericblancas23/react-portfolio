@@ -9,7 +9,7 @@ export default class Skills extends Component {
         super(props);
         this.state = {
             chartData:{
-                labels: ['React', 'Redux', 'MongoDB', 'Express', 'Node', 'Javascript'],
+                labels: ['React and React-Native', 'Redux', 'MongoDB', 'Express', 'Node', 'Javascript'],
                 datasets:[
                   {
                     label:'Technologies',
@@ -31,7 +31,8 @@ export default class Skills extends Component {
                       'rgba(75, 192, 192, 0.6)',
                       'rgba(153, 102, 255, 0.6)',
                       'rgba(255, 159, 64, 0.6)',
-                      'rgba(255, 99, 132, 0.6)'
+                      'rgba(255, 99, 132, 0.6)',
+                      'rgba(54, 162, 235, 0.6)'
                     ]
                   }
                 ]
