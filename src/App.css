@@ -10,8 +10,8 @@ p {
   padding-bottom: 1cm;
   padding-top: 1cm;
   font-size: 150%;
-  color: white;
-  background-image: url('https://i.pinimg.com/originals/66/09/83/660983936b27260376687cf3408a76b7.jpg');
+  color: black;
+  background-color: gray;
 }
 
 .nav {

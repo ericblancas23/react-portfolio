@@ -11,7 +11,7 @@ export default class Projects extends Component {
                 <div className="row">
 
                    <div class="col-sm-6 col-lg-3">
-                   <img class="card-img-top" alt="Card header image" src={require("../img/lambdashowcase.png")} />
+                   <img class="card-img-top" alt="Card header image" src={require("../img/lambdashowcase.png")} style={{ height: 250, width: 250}}/>
                      <div className="card mt-3 mb-3">
                        <div className="card-body">
                            <h5 class="card-title">Lambda Showcase</h5>
@@ -23,7 +23,7 @@ export default class Projects extends Component {
                    </div>
 
                    <div class="col-sm-6 col-lg-3">
-                   <img class="card-img-top" alt="Card header image" src={require("../img/cliphy.png")} />
+                   <img class="card-img-top" alt="Card header image" src={require("../img/cliphy.png")} style={{ height: 250, width: 250}}/>
                      <div className="card mt-3">
                        <div className="card-body">
                            <h5 class="card-title">Cliphy</h5>
@@ -35,7 +35,7 @@ export default class Projects extends Component {
                    </div>
 
                    <div class="col-sm-6 col-lg-3">
-                   <img class="card-img-top" alt="Card header image" src={require("../img/airbnb.png")} />
+                   <img class="card-img-top" alt="Card header image" src={require("../img/airbnb.png")} style={{ height: 250, width: 250}}/>
                      <div className="card mt-3">
                        <div className="card-body">
                            <h5 class="card-title">Airbnb Copy</h5>
@@ -47,7 +47,7 @@ export default class Projects extends Component {
                    </div>
 
                    <div class="col-sm-6 col-lg-3">
-                   <img class="card-img-top" alt="Card header image" src={require("../img/weather.png")} />
+                   <img class="card-img-top" alt="Card header image" src={require("../img/weather.png")} style={{ height: 250, width: 250}}/>
                    <div className="card mt-3">
                        <div className="card-body">
                            <h5 class="card-title">Weather</h5> 
@@ -59,7 +59,7 @@ export default class Projects extends Component {
                    </div>
 
                    <div class="col-sm-6 col-lg-3">
-                   <img class="card-img-top" alt="Card header image" src={require("../img/ecommerce.png")} />
+                   <img class="card-img-top" alt="Card header image" src={require("../img/ecommerce.png")} style={{ height: 250, width: 250}} />
                      <div className="card mt-3">
                        <div className="card-body">
                            <h5 class="card-title">Ecommerce</h5>
@@ -71,7 +71,7 @@ export default class Projects extends Component {
                    </div>
 
                    <div class="col-sm-6 col-lg-3">
-                   <img class="card-img-top" alt="Card header image" src={require("../img/carpool2.png")} />
+                   <img class="card-img-top" alt="Card header image" src={require("../img/carpool2.png")} style={{ height: 250, width: 250}}/>
                      <div className="card mt-3">
                        <div className="card-body">
                            <h5 class="card-title">Carpool</h5>
