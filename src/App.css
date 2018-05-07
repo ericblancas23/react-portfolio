@@ -11,15 +11,16 @@ p {
   padding-top: 1cm;
   font-size: 150%;
   color: black;
-  background-color: gray;
+  background: linear-gradient(coral, deeppink 100%);
 }
 
 .nav {
-  background-image: url('https://i.pinimg.com/originals/66/09/83/660983936b27260376687cf3408a76b7.jpg');
+  background: linear-gradient(tomato, tomato 50%, gold 100%);
 }
-/* .project-section {
-   padding: 8%;
-} */
+.project-section {
+   padding: 5%;
+   background: linear-gradient(coral, deeppink 0%, coral 100%);
+} 
 
 .landing-img {
   align-content: center;
@@ -29,7 +30,7 @@ p {
 }
 
 .skills {
-  background-color: white;
+  background: linear-gradient(coral, gold 100%);
   color: black;
 }
 
@@ -49,13 +50,89 @@ body {
 
 .project-section {
   padding-bottom: 0.5cm;
-  background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/IjFi-wx/moving-stars-on-black-background_41x3vg3x__F0000.png');
-  color: gray;
+  color: black;
 }
 
 .contact {
-  background-image: url('https://i.pinimg.com/originals/66/09/83/660983936b27260376687cf3408a76b7.jpg');
-  color: white;
+  background: linear-gradient(gold, coral 100%);
+  color: black;
   padding-top: 0.5cm;
   padding-bottom: 0.5cm;
 }
+
+.pink {
+  background: linear-gradient(to right, deeppink 0%, coral 100%);
+}
+
+.teal {
+  background: linear-gradient(to right, SlateBlue 0%, DeepSkyBlue 100%);
+}
+
+.tomato {
+  background: linear-gradient(to right, tomato 0%, gold 100%);
+} 
+
+/* .container > div > div {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  pointer-events: none;
+  justify-content: start !important; 
+  font-family: 'Kanit', sans-serif;
+  line-height: 0px; 
+  text-transform: uppercase; 
+}
+
+.number {
+  font-size: 250px;
+  color: #373c4c;
+}
+
+.number span {
+  display: fixed;
+  position: relative;
+  transform: translate3d(-35%, 0, 0);
+}
+
+.header {
+  margin-left: 300px;
+  font-size: 70px;
+  color: white;
+}
+
+.stripe {
+  height: 2px;
+  width: auto;
+}
+
+.slopeBegin {
+  background-color: #20232f;
+  clip-path: polygon(20vw 0, 80% 0, calc(70% - 20vw) 100%, 0 100%);
+}
+
+.slopeEnd {
+  clip-path: polygon(70% 0, 100% 0, calc(100% - 20vw) 100%, calc(70% - 20vw) 100%);
+}
+
+.slopeBegin,
+.slopeEnd {
+  position: absolute;
+  width: 170%;
+  height: 240%;
+  cursor: pointer;
+}
+
+.pink {
+  background: linear-gradient(to right, deeppink 0%, coral 100%);
+}
+
+.teal {
+  background: linear-gradient(to right, SlateBlue 0%, DeepSkyBlue 100%);
+}
+
+.tomato {
+  background: linear-gradient(to right, tomato 0%, gold 100%);
+} */

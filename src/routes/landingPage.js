@@ -8,10 +8,10 @@ export default class LandingPage extends Component {
     render() {
         return(
             <div>
-               <LazyHero imageSrc="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/IjFi-wx/moving-stars-on-black-background_41x3vg3x__F0000.png"
+               <LazyHero imageSrc="https://i.imgur.com/rdgmZTo.gif"
               parallaxOffset={150}
               style={{height: "500px"}}
-              color="black"
+              color="coral"
               opacity={0.4}
         >
                  <div style={{ color: "white"}}>

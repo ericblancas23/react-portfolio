@@ -5,7 +5,7 @@ export default class Projects extends Component {
     render() {
         return(
             <div className="project-section">
-            <center><h1>My Projects:</h1></center>
+            <center><h1 style={{ paddingBottom: '2cm' }}>My Projects:</h1></center>
               <div className="container">
 
                 <div className="row">

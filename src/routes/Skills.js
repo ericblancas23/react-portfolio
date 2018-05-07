@@ -25,14 +25,12 @@ export default class Skills extends Component {
 
                     ],
                     backgroundColor:[
-                      'rgba(255, 99, 132, 0.6)',
+                      'black',
                       'rgba(54, 162, 235, 0.6)',
-                      'rgba(255, 206, 86, 0.6)',
+                      'teal',
                       'rgba(75, 192, 192, 0.6)',
                       'rgba(153, 102, 255, 0.6)',
-                      'rgba(255, 159, 64, 0.6)',
-                      'rgba(255, 99, 132, 0.6)',
-                      'rgba(54, 162, 235, 0.6)'
+                      'rgb(33, 255, 0)'
                     ]
                   }
                 ]
@@ -44,7 +42,7 @@ export default class Skills extends Component {
         
         return(
             <div className="skills">
-            <center><h1>My Skills:</h1></center>
+            <center><h1 style={{ paddingBottom: '2cm' }}>My Skills:</h1></center>
                 <Bar 
                    data={this.state.chartData}
                    width={400}

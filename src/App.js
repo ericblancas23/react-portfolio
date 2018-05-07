@@ -5,7 +5,10 @@ import Contact from './routes/Contact';
 import Skills from './routes/Skills';
 import Projects from './routes/Projects';
 import LandingPage from './routes/landingPage';
+import { Parallax } from 'react-spring'
 import './App.css';
+
+
 
 class App extends Component {
   render() {
