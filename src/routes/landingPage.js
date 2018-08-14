@@ -24,7 +24,7 @@ export default class LandingPage extends Component {
                 </div>
               </LazyHero>
               <div className="landing-paragraph">
-              <img src={require('../img/newpicofme.png')} alt="pic"/>
+              <img src={require('../img/me.jpg')} className="me" alt="pic"/>
               <p>Born and raised in San Diego, CA. Growing up I always had an admiration for computers and technology, Xanga and MySpace had become my stepping stone towards web development. I would spend countless hours trying to make my profile page look colorful just to impress my friends and eventually from such a young age, it became one of my most treasured skills. Html/CSS was my first exposure to DOM manipulation of rendering colors, and creation of user interfaces; thus began my journey of becoming a web developer.
                  M.E.R.N Stack is my specialty, which is the acronym for MongoDB, Express, React, and Node. Majority of my projects are built with React (with ES6 syntax) and Node.JS platform, I also specialize in 
                  python; writing APIs with Flask. 

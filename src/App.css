@@ -3,12 +3,18 @@
 p {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
+  padding-top: 1cm;
+}
+
+.me {
+  border-radius: 50%;
+  height: 500px
 }
 
 .landing-paragraph {
   text-align: center;
   padding-bottom: 1cm;
-  padding-top: 1cm;
+  padding-top: 1.5cm;
   font-size: 150%;
   color: black;
   background: linear-gradient(coral, deeppink 100%);
