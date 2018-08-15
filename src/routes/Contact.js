@@ -5,18 +5,16 @@ export default class Contact extends Component {
         return(
         <div className="contact">
             <div class="col-sm-12 col-md-6 offset-md-3">
-              <h3>Reach out!</h3>
-              <form action="mailto:ericblancas23@gmail.com" method="post">
-          <div class="form-group">
-               <input type="text" class="form-control" id="email" placeholder="Your email.." />
-            </div>
-          <div class="form-group">
-               <textarea class="form-control" placeholder="Your message..">            
-               </textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-          
-          </form>
+              <h1 style={{textAlign: "center", marginBottom: "1cm"}}>Reach out!</h1>
+              <div>
+                {/* <img src="https://cdn0.iconfinder.com/data/icons/loan-and-investment/64/Icon_Set_Money_Loan-20-512.png" 
+                 style={{ height: "250px", width: "250px"}}/> */}
+                    <h3 style={{display: "inline"}}>ericblancas23@gmail.com</h3>
+                {/* <img src="" 
+                    style={{height: "150px", width: "250px", marginRight: "55px"}}
+                /> */}
+                    <h3 style={{display: "inline", marginLeft: "1cm"}}>(+1)619-274-0540</h3>
+                </div>
           
             </div>
           </div>

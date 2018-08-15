@@ -11,6 +11,10 @@ p {
   height: 500px
 }
 
+.email {
+  float: left;
+}
+
 .landing-paragraph {
   text-align: center;
   padding-bottom: 1cm;
@@ -63,7 +67,7 @@ body {
   background: linear-gradient(gold, coral 100%);
   color: black;
   padding-top: 0.5cm;
-  padding-bottom: 0.5cm;
+  padding-bottom: 1cm;
 }
 
 .pink {
