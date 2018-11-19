@@ -82,6 +82,17 @@ export default class Projects extends Component {
                      </div>
                    </div>
 
+                  <div class="col-sm-6 col-lg-3">
+                   <img class="card-img-top" alt="Card header image" src={require("../img/uber33.jpg")} style={{ height: 320, width: 280}}/>
+                     <div className="card mt-3">
+                       <div className="card-body">
+                           <h5 class="card-title">UberUI</h5>
+                           <p class="card-text">A working and functional UI clone of UberUI </p>
+                           <a href="https://github.com/ericblancas23/carpooling-UI">Github Repo</a>
+                       </div>
+                     </div>
+                   </div>
+
 
 
                    {/* <div class="col-sm-6 col-lg-3">
