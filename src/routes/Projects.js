@@ -104,16 +104,17 @@ export default class Projects extends Component {
                      </div>
                    </div>
 
-
-
-                   {/* <div class="col-sm-6 col-lg-3">
-                     <div className="card">
+                <div class="col-sm-6 col-lg-3">
+                   <img class="card-img-top" alt="Card header image" src={require("../img/spaceX.png")} style={{ height: 250, width: 250}}/>
+                     <div className="card mt-3">
                        <div className="card-body">
-                           <h5 class="card-title">Project 1</h5>
-                           <p class="card-text">An awesome project</p>
+                           <h5 class="card-title">SpaceX Launch Details</h5>
+                           <p class="card-text">A react project that connects to spaceX api, grabbing latest details on new launches, rockets, etc.</p>
+                           <a href="https://github.com/ericblancas23/spaceX-fiddle">Github Repo</a>
                        </div>
                      </div>
-                   </div> */}
+                   </div>
+
 
 
                 </div>
