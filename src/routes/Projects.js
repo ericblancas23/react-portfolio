@@ -114,6 +114,18 @@ export default class Projects extends Component {
                        </div>
                      </div>
                    </div>
+                
+                   <div class="col-sm-6 col-lg-3">
+                   <img class="card-img-top" alt="Card header image" src={require("../img/Ray-Tracer.png")} style={{ height: 250, width: 250, marginTop: "1.5cm"}}/>
+                     <div className="card mt-3">
+                       <div className="card-body">
+                           <h5 class="card-title">Ray Tracer</h5>
+                           <p class="card-text">Utilizing C++, I have made a sample Ray tracer to render out pixels in simulated 
+                           light</p>
+                           <a href="https://github.com/ericblancas23/Ray_tracer">Github Repo</a>
+                       </div>
+                     </div>
+                   </div>
 
 
 
