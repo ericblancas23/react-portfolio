@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReactContactForm from 'react-mail-form';
+
 
 export default class Contact extends Component {
     render() {
