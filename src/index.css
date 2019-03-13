@@ -2,4 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background: linear-gradient(tomato, tomato 50%, gold 100%);
+  background-image: url(https://static1.squarespace.com/static/53ff63e4e4b0281e27998d62/t/59d58ac932601edd7898f2c8/1507166922529/Orange+Banner+GOOD.jpg?format=1500w);
+  background-repeat: inherit;
 }

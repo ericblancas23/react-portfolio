@@ -1,23 +1,19 @@
 import React, { Component } from 'react';
+import ReactContactForm from 'react-mail-form';
 
 export default class Contact extends Component {
     render() {
         return(
         <div className="contact">
-            <div class="col-sm-12 col-md-6 offset-md-3">
-              <h1 style={{textAlign: "center", marginBottom: "1cm"}}>Reach out!</h1>
-              <div>
-                {/* <img src="https://cdn0.iconfinder.com/data/icons/loan-and-investment/64/Icon_Set_Money_Loan-20-512.png" 
-                 style={{ height: "250px", width: "250px"}}/> */}
-                    <h3 style={{display: "inline"}}>ericblancas23@gmail.com</h3>
-                {/* <img src="" 
-                    style={{height: "150px", width: "250px", marginRight: "55px"}}
-                /> */}
-                    <h3 style={{display: "inline", marginLeft: "1cm"}}>(+1)619-274-0540</h3>
-                </div>
-          
+            <center>
+            <h1>Contact Me</h1>
+            <div className="icons">
+            <a href="https://www.linkedin.com/in/eric-blancas23/"><img alt="" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-256.png" style={{width: 100, height: 100, marginLeft: "1cm"}}/></a>
+            <a href="https://github.com/ericblancas23"><img alt="" src={require("../img/Octocat.png")} style={{width: 100, height: 100, marginLeft:"1.5cm"}}/></a>
+            <a href="ericblancas23@gmai.com"><img alt="mail" src={require("../img/email.png")} style={{width: 100, height: 100, marginLeft:"1.5cm"}} /></a>
             </div>
-          </div>
+            </center>
+        </div>
         );
     }
 }

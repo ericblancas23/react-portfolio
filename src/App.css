@@ -1,5 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Hi+Melody');
 
+.content-grid {
+  background: linear-gradient(tomato, tomato 50%, gold 100%);
+  margin: 0 auto;
+  width: calc(100% - 5rem);
+
+  @include breakpoint-medium-up {
+      width: calc(100% - 5rem);
+  }
+
+  @include breakpoint-large-up {
+      width: calc(100% - 10rem);
+  }
+
+  @include breakpoint-xlarge-up {
+      width: calc(100% - 20rem);
+  }
+}
+
+
 p {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
@@ -21,7 +40,7 @@ p {
   padding-top: 1.5cm;
   font-size: 150%;
   color: black;
-  background: linear-gradient(coral, deeppink 100%);
+  background: linear-gradient(tomato, gold 50%, tomato 100%);
 }
 
 .nav {
@@ -29,7 +48,7 @@ p {
 }
 .project-section {
    padding: 5%;
-   background: linear-gradient(coral, deeppink 0%, coral 100%);
+   background: linear-gradient(tomato, coral 50%, gold 100%);
 } 
 
 .landing-img {
@@ -63,11 +82,15 @@ body {
   color: black;
 }
 
+.icons {
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
 .contact {
   background: linear-gradient(gold, coral 100%);
   color: black;
-  padding-top: 0.5cm;
-  padding-bottom: 1cm;
+  margin-top: 2%;
 }
 
 .pink {

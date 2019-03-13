@@ -5,6 +5,7 @@ import Contact from './routes/Contact';
 import Skills from './routes/Skills';
 import Projects from './routes/Projects';
 import LandingPage from './routes/landingPage';
+import Spinner from './components/Spinner';
 import { Parallax } from 'react-spring'
 import './App.css';
 
@@ -13,13 +14,13 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="content-grid">
          <div>
            <NavBar history={history} />
          </div>
          <LandingPage />
          <Projects />
-         <Skills />
+         {/* <Skills /> */}
          <Contact />
       </div>
     );
