@@ -3,7 +3,7 @@
 .content-grid {
   background: linear-gradient(tomato, tomato 50%, gold 100%);
   margin: 0 auto;
-  width: calc(120% - 5rem);
+  width: calc(100% - 5rem);
 
   @include breakpoint-medium-up {
       width: calc(100% - 5rem);
@@ -27,7 +27,8 @@ p {
 
 .me {
   border-radius: 50%;
-  height: 500px
+  height: 500px;
+  width: 350px;
 }
 
 .email {
